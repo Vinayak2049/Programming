@@ -2,16 +2,13 @@
 
 ## Given a positive integer x. Your task is to check, if it is even or odd
 
-##Code
+## Code
 
 def checkOddEven(x):
     if (x % 2 == 0):
-        # Complete the statement below
         print("Even")
-
     else:
-        # Complete the statement below
         print("Odd")
         
-x = int(input())
+x = int(input("Enter a Number: :))
 checkOddEven(x)
