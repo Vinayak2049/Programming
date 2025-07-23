@@ -49,3 +49,25 @@ int main(){
     }
     return 0;
 }
+
+
+
+## Java Code:
+
+import java.util.Scanner;
+
+public class Main{
+    public static void main(String[] args){
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter a number: ");
+        int x = scanner.nextInt();
+        int y=1;
+        while(y<x){
+            int num = y*y;
+            if(num<=x){
+                System.out.printf("%d ",num);
+            }
+            y=y+1;
+        }    
+    }
+}
